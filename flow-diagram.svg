@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 790" width="1280" height="790" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <marker id="aBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#13B5EA"/></marker>
+    <marker id="aTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F9E7A"/></marker>
+    <marker id="aViolet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B4FD8"/></marker>
+    <marker id="aGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8FA3B3"/></marker>
+  </defs>
+
+  <rect width="1280" height="790" fill="#F7FAFC"/>
+
+  <!-- Header -->
+  <text x="40" y="60" font-size="28" font-weight="700" fill="#0F2A3D">My weekly operating rhythm</text>
+  <text x="40" y="88" font-size="15" fill="#5B7083">Three skills on three cadences. Each layer rolls up the work of the one above it.</text>
+
+  <!-- Column headers -->
+  <g font-size="13" font-weight="700" fill="#5B7083" text-anchor="middle">
+    <text x="355" y="150">Mon</text><text x="497" y="150">Tue</text><text x="639" y="150">Wed</text><text x="781" y="150">Thu</text><text x="923" y="150">Fri</text>
+  </g>
+  <text x="1030" y="150" font-size="13" font-weight="700" fill="#5B7083">What you get</text>
+
+  <!-- Feedback loop (drawn first so it sits behind) -->
+  <path d="M864,620 L864,668 L268,668 L268,215 L284,215" fill="none" stroke="#6B4FD8" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#aViolet)"/>
+  <text x="290" y="692" font-size="13" fill="#6B4FD8">Watch items and OKR gaps reset what counts as “Do now” in the month ahead</text>
+
+  <!-- Left labels -->
+  <g>
+    <text x="40" y="192" font-size="22" font-weight="700" fill="#0D8FBD">Daily</text>
+    <text x="40" y="214" font-size="14" font-weight="700" fill="#0F2A3D">Energy and actions</text>
+    <text x="40" y="234" font-size="12" fill="#5B7083">Glean agent</text>
+    <text x="40" y="250" font-size="12" fill="#5B7083">Calendar, meetings, Jira,</text>
+    <text x="40" y="265" font-size="12" fill="#5B7083">Slack, Asana, Drive, Confluence</text>
+
+    <text x="40" y="357" font-size="22" font-weight="700" fill="#1F9E7A">Weekly</text>
+    <text x="40" y="379" font-size="14" font-weight="700" fill="#0F2A3D">Status update</text>
+    <text x="40" y="399" font-size="12" fill="#5B7083">Claude skill, scheduled</text>
+    <text x="40" y="415" font-size="12" fill="#5B7083">Asana, Slack, Gmail</text>
+
+    <text x="40" y="527" font-size="22" font-weight="700" fill="#6B4FD8">Monthly</text>
+    <text x="40" y="549" font-size="14" font-weight="700" fill="#0F2A3D">OKR alignment</text>
+    <text x="40" y="569" font-size="12" fill="#5B7083">Glean agent, writes to Drive</text>
+    <text x="40" y="585" font-size="12" fill="#5B7083">Drive, email, calendar,</text>
+    <text x="40" y="601" font-size="12" fill="#5B7083">Slack, Jira</text>
+  </g>
+
+  <!-- Daily to weekly connectors -->
+  <g stroke="#13B5EA" stroke-width="2" fill="none">
+    <path d="M355,265 V295"/><path d="M497,265 V295"/><path d="M639,265 V295"/><path d="M781,265 V295"/><path d="M923,265 V295"/>
+    <path d="M355,295 H923"/>
+    <path d="M852,295 V326" marker-end="url(#aBlue)"/>
+  </g>
+  <text x="290" y="318" font-size="12" fill="#5B7083">Each day’s work lands in Asana, Slack and Gmail, which the weekly update reads</text>
+
+  <!-- Daily tiles -->
+  <g>
+    <g transform="translate(290,165)"><rect width="130" height="100" rx="10" fill="#E3F6FD" stroke="#13B5EA" stroke-width="1.5"/><text x="14" y="30" font-size="15" font-weight="700" fill="#0F2A3D">Next tasks</text><text x="14" y="48" font-size="15" font-weight="700" fill="#0F2A3D">&amp; energy plan</text><text x="14" y="82" font-size="12" fill="#0D8FBD">Start of day</text></g>
+    <g transform="translate(432,165)"><rect width="130" height="100" rx="10" fill="#E3F6FD" stroke="#13B5EA" stroke-width="1.5"/><text x="14" y="30" font-size="15" font-weight="700" fill="#0F2A3D">Next tasks</text><text x="14" y="48" font-size="15" font-weight="700" fill="#0F2A3D">&amp; energy plan</text><text x="14" y="82" font-size="12" fill="#0D8FBD">Start of day</text></g>
+    <g transform="translate(574,165)"><rect width="130" height="100" rx="10" fill="#E3F6FD" stroke="#13B5EA" stroke-width="1.5"/><text x="14" y="30" font-size="15" font-weight="700" fill="#0F2A3D">Next tasks</text><text x="14" y="48" font-size="15" font-weight="700" fill="#0F2A3D">&amp; energy plan</text><text x="14" y="82" font-size="12" fill="#0D8FBD">Start of day</text></g>
+    <g transform="translate(716,165)"><rect width="130" height="100" rx="10" fill="#E3F6FD" stroke="#13B5EA" stroke-width="1.5"/><text x="14" y="30" font-size="15" font-weight="700" fill="#0F2A3D">Next tasks</text><text x="14" y="48" font-size="15" font-weight="700" fill="#0F2A3D">&amp; energy plan</text><text x="14" y="82" font-size="12" fill="#0D8FBD">Start of day</text></g>
+    <g transform="translate(858,165)"><rect width="130" height="100" rx="10" fill="#E3F6FD" stroke="#13B5EA" stroke-width="1.5"/><text x="14" y="30" font-size="15" font-weight="700" fill="#0F2A3D">Next tasks</text><text x="14" y="48" font-size="15" font-weight="700" fill="#0F2A3D">&amp; energy plan</text><text x="14" y="82" font-size="12" fill="#0D8FBD">Start of day</text></g>
+  </g>
+
+  <!-- Weekly tile -->
+  <g transform="translate(716,330)">
+    <rect width="272" height="100" rx="10" fill="#E2F4EE" stroke="#1F9E7A" stroke-width="1.5"/>
+    <text x="16" y="26" font-size="12" font-weight="700" fill="#1F9E7A">Friday, 4:30pm</text>
+    <text x="16" y="50" font-size="16" font-weight="700" fill="#0F2A3D">Weekly status update</text>
+    <text x="16" y="72" font-size="12" fill="#5B7083">Scheduled task weekly-status-draft</text>
+    <text x="16" y="88" font-size="12" fill="#5B7083">Looks back 7 days</text>
+  </g>
+
+  <!-- Weekly to monthly -->
+  <path d="M852,430 V496" stroke="#1F9E7A" stroke-width="2" fill="none" marker-end="url(#aTeal)"/>
+  <text x="862" y="468" font-size="12" fill="#1F9E7A">Week 4</text>
+
+  <!-- Earlier weeks -->
+  <text x="290" y="522" font-size="12" fill="#5B7083">Earlier weekly updates this month</text>
+  <path d="M355,560 H736" stroke="#1F9E7A" stroke-width="2" fill="none" marker-end="url(#aTeal)"/>
+  <g font-size="13" font-weight="700" fill="#1F9E7A" text-anchor="middle">
+    <rect x="290" y="535" width="120" height="50" rx="8" fill="#FFFFFF" stroke="#1F9E7A" stroke-width="1.5" stroke-dasharray="4 3"/><text x="350" y="565">Week 1</text>
+    <rect x="420" y="535" width="120" height="50" rx="8" fill="#FFFFFF" stroke="#1F9E7A" stroke-width="1.5" stroke-dasharray="4 3"/><text x="480" y="565">Week 2</text>
+    <rect x="550" y="535" width="120" height="50" rx="8" fill="#FFFFFF" stroke="#1F9E7A" stroke-width="1.5" stroke-dasharray="4 3"/><text x="610" y="565">Week 3</text>
+  </g>
+
+  <!-- Monthly tile -->
+  <g transform="translate(740,500)">
+    <rect width="248" height="120" rx="10" fill="#ECE8FB" stroke="#6B4FD8" stroke-width="1.5"/>
+    <text x="16" y="26" font-size="12" font-weight="700" fill="#6B4FD8">Last Friday of the month</text>
+    <text x="16" y="50" font-size="16" font-weight="700" fill="#0F2A3D">OKR alignment report</text>
+    <text x="16" y="72" font-size="12" fill="#5B7083">Maps the month to O5, O10,</text>
+    <text x="16" y="88" font-size="12" fill="#5B7083">O11 and O14</text>
+    <text x="16" y="106" font-size="12" fill="#5B7083">Runs after the weekly update</text>
+  </g>
+
+  <!-- Outputs -->
+  <g stroke="#8FA3B3" stroke-width="1.5" fill="none">
+    <path d="M988,215 H1026" marker-end="url(#aGrey)"/>
+    <path d="M988,380 H1026" marker-end="url(#aGrey)"/>
+    <path d="M988,560 H1026" marker-end="url(#aGrey)"/>
+  </g>
+  <g>
+    <rect x="1030" y="165" width="210" height="100" rx="10" fill="#FFFFFF" stroke="#D5E0E8"/>
+    <text x="1046" y="189" font-size="14" font-weight="700" fill="#0F2A3D">Today’s plan</text>
+    <text x="1046" y="209" font-size="12" fill="#5B7083">Do, Schedule, Delegate,</text>
+    <text x="1046" y="225" font-size="12" fill="#5B7083">Eliminate task list</text>
+    <text x="1046" y="241" font-size="12" fill="#5B7083">Time, activity and energy</text>
+    <text x="1046" y="257" font-size="12" fill="#5B7083">table for the rest of the day</text>
+
+    <rect x="1030" y="330" width="210" height="100" rx="10" fill="#FFFFFF" stroke="#D5E0E8"/>
+    <text x="1046" y="354" font-size="14" font-weight="700" fill="#0F2A3D">Draft for review</text>
+    <text x="1046" y="374" font-size="12" fill="#5B7083">Completed, In progress,</text>
+    <text x="1046" y="390" font-size="12" fill="#5B7083">Decisions, Open, Next week</text>
+    <text x="1046" y="406" font-size="12" fill="#5B7083">12 bullets max</text>
+    <text x="1046" y="422" font-size="12" fill="#5B7083">You check it, then send</text>
+
+    <rect x="1030" y="500" width="210" height="120" rx="10" fill="#FFFFFF" stroke="#D5E0E8"/>
+    <text x="1046" y="524" font-size="14" font-weight="700" fill="#0F2A3D">Report and log</text>
+    <text x="1046" y="544" font-size="12" fill="#5B7083">Google Doc report</text>
+    <text x="1046" y="560" font-size="12" fill="#5B7083">Row in the quarterly Sheet</text>
+    <text x="1046" y="576" font-size="12" fill="#5B7083">Top 3 contributions</text>
+    <text x="1046" y="592" font-size="12" fill="#5B7083">Watch items to review</text>
+  </g>
+
+  <!-- Legend -->
+  <line x1="40" y1="745" x2="80" y2="745" stroke="#0F2A3D" stroke-width="2"/>
+  <text x="90" y="749" font-size="12" fill="#5B7083">Feeds into</text>
+  <line x1="180" y1="745" x2="220" y2="745" stroke="#0F2A3D" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="230" y="749" font-size="12" fill="#5B7083">Feeds back</text>
+  <text x="1240" y="749" font-size="12" fill="#5B7083" text-anchor="end">Times are local (Sydney)</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiMzY5YzIxMS02NWZiLTQ1YzQtOGMyNy02M2E2MzUzNzc4YmIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaB8D3+9rIVUwHFLGIN/eaVQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDplYTY1YmJhMi0zYmQ5LTQ4YmEtODhjYy1kZWJiNjIyMTNmMDVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNokFnkZxaMP8AuP3PWYAMbbQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggjDOijChLMbyLU/1LD7mrxOGl3d1B1lIuOyPCf1nUoG2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEiDfYl1AfNMoHuRryaZM+MAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIH544/yIhL9VlS1AQMffFL9i/WsIpZlWqmjlAoRxac5KZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSdRZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmIzNjljMjExLTY1ZmItNDVjNC04YzI3LTYzYTYzNTM3NzhiYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjJiMjI2ZjhjLWUwYTEtNDlhZC04ZTE5LTQyMjJmYTNkMjQyZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCMM6KMKEsxvItT/UsPuavE4aXd3UHWUi47I8J/WdSgbaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggJ6+zftZazaaAQ8BpJq9j3cVXGk/7IjNJwoRmD3vx61iiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggpEzjj2zACtQWxJyKSiRONGpUHDoLuh9swLPMawq2Lkd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNZ2QvZIs+TpPbIUU4D3LHcS2pIOXvzMpmmhxYD0shy3Cirdz+qtn2pNWttK/CpSWANoqVtssoaO2HzGJduRyKk=</c2pa:manifest></metadata></svg>
